@@ -40,7 +40,7 @@ setup(
     author="Endre Bakken Stovner",
     author_email="endrebak85@gmail.com",
     url="http://github.com/endrebak/bwread",
-    license=["MIT"],
+    license="MIT",
     install_requires=install_requires,
     classifiers=[
         "Programming Language :: Python :: 3",
