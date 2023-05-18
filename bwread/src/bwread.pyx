@@ -1,11 +1,11 @@
-import pandas as pd
-import numpy as np
 import cython
+import numpy as np
+import pandas as pd
+import pyBigWig
 from natsort import natsorted
 
-import pyBigWig
-
 from libc.stdint cimport int64_t
+
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
